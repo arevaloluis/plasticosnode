@@ -4,6 +4,7 @@ const userController = require("../controllers/userController");
 const warehouseController = require("../controllers/warehouseController");
 const productsController = require("../controllers/productsController");
 
+
 const router = express.Router()
 
 router.get("/", homeController.index);
